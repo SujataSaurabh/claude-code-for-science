@@ -83,7 +83,7 @@ own work. Nothing here touches your own files.
 ```bash
 git clone https://github.com/sujatasaurabh/claude-code-for-science.git
 cd claude-code-for-science
-python -m venv .venv
+python3 -m venv .venv            # On Windows: python -m venv .venv
 source .venv/bin/activate        # On Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 ```
@@ -439,8 +439,8 @@ is running in. Activate your project's virtual environment before starting Claud
 with `ruff --version` and `pytest --version`.
 
 **`pip install -e ".[dev]"` fails.**
-Check that you are using Python 3.11 or newer (`python --version`) and that you are running the
-command from the root of this repository.
+Check that you are using Python 3.11 or newer (`python3 --version`, or `python --version` on
+Windows) and that you are running the command from the root of this repository.
 
 **Claude Code asks for permission often.**
 This is expected. Claude Code asks before running commands or changing settings. You can approve
