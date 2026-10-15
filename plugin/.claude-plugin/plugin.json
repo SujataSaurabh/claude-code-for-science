@@ -1,0 +1,12 @@
+{
+  "name": "sci",
+  "displayName": "Sci Pipeline Tools",
+  "version": "0.1.0",
+  "description": "Scientific Python standards, pipeline scaffolding, and review for research teams",
+  "author": {
+    "name": "Sujata Goswami",
+    "url": "https://github.com/sujatasaurabh/claude-code-for-science"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["science", "pipeline", "python", "research", "beamline"]
+}

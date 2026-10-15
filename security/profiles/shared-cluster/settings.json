@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(pytest *)",
+      "Bash(ruff *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(squeue *)",
+      "Bash(sacct *)",
+      "Bash(module list)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(rm -r *)",
+      "Bash(sudo *)",
+      "Bash(su *)",
+      "Bash(pip install *)",
+      "Bash(pip uninstall *)",
+      "Bash(conda install *)",
+      "Bash(conda remove *)",
+      "Bash(curl * | *)",
+      "Bash(wget * | *)",
+      "Bash(chmod *)",
+      "Bash(chown *)",
+      "Bash(kill *)",
+      "Bash(killall *)",
+      "Bash(scancel *)",
+      "Bash(sbatch *)",
+      "Bash(srun *)"
+    ]
+  }
+}
