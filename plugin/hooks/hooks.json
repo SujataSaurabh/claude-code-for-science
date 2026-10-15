@@ -7,14 +7,12 @@
           {
             "type": "command",
             "command": "\"${CLAUDE_PLUGIN_ROOT}\"/hooks/scripts/ruff-check.sh",
-            "if": "Edit(*.py)|Write(*.py)",
             "timeout": 30,
             "statusMessage": "Running ruff..."
           },
           {
             "type": "command",
             "command": "\"${CLAUDE_PLUGIN_ROOT}\"/hooks/scripts/pytest-check.sh",
-            "if": "Edit(*.py)|Write(*.py)",
             "timeout": 60,
             "statusMessage": "Running pytest..."
           }
